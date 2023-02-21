@@ -32,7 +32,7 @@ module.exports = {
                 loader: 'html-loader',
             },
             {
-                test: /\.(js)$/i,
+                test: /\.(js|jsx)$/i,
                 exclude: /node_modules/,
                 use: 'babel-loader',
             },

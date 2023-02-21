@@ -6,7 +6,8 @@
   "scripts": {
     "buildDev": "webpack --config webpack.dev.js",
     "buildProd": "webpack --config webpack.prod.js",
-    "watch": "webpack --watch --config webpack.prod.js",
+    "watchDev": "webpack --watch --config webpack.dev.js",
+    "watchProd": "webpack --watch --config webpack.prod.js",
     "test": "jest"
   },
   "keywords": [],
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "html-loader": "^4.2.0",
@@ -28,6 +30,8 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "css-minimizer-webpack-plugin": "^4.2.2"
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

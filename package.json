@@ -1,7 +1,7 @@
 {
   "name": "webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1>Overview</h1> <p> A template for creating apps with Webpack and React.<br/> This template is modified form the <a href=\"https://github.com/jamclean23/react-webpack-template\">Multiple Page Webpack Template</a> and configured for a single page.  </p>",
   "main": "./src/index/index.js",
   "scripts": {
     "buildDev": "webpack --config webpack.dev.js",
@@ -22,6 +22,7 @@
     "@testing-library/user-event": "^14.4.3",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
+    "electron": "^25.4.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "identity-obj-proxy": "^3.0.0",
